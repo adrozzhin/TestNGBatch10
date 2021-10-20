@@ -1,0 +1,26 @@
+Recap -
+
+TestNG - Testng is a tool/framework which is based on annotations
+       -- it provides multiple options for execution which can be integrated
+       easily with selenium.
+
+without testng - no priority for execution sequence
+               -- no way to exclude the test case from execution
+               -- no reporting structure
+
+@Test annotation - to execute TC's we must write our method with @Test annotation
+
+@BeforeMethod - it executes before every test as a pre condition
+@AfterMethod - it executes after every test as a post condition
+
+@BeforeClass - it executes once before the class executes
+@AfterClass - it executes once after the class executes
+
+Testng attributes -
+priority - by default priority is set to 0
+enabled - by default every TC true, if we need to exclude TC we have to set this to false
+
+Assertion is of 2 types -
+Hard assertion - the moment it finds an error, it stops execution and gives us the break point.
+
+

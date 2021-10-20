@@ -1,0 +1,2 @@
+US - 54321
+As an admin user you should be able to login with valid credentials

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/drozz/IdeaProjects/TestNGBatch10">
+        <classes>
+            <class name="class01.HW1">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+            <class name="class01.HW2">
+                <methods>
+                    <include name="login"/>
+                    <include name="verifyLogo"/>
+                </methods>
+            </class>
+            <class name="class01.HW3">
+                <methods>
+                    <include name="incompletelogin"/>
+                    <include name="verifyErrorMessage"/>
+                </methods>
+            </class>
+            <class name="class01.LoginTest">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="testUS"/>
+                </methods>
+            </class>
+            <class name="class01.PriorityAttribute">
+                <methods>
+                    <include name="loginMethod"/>
+                    <include name="launchBrowser"/>
+                    <include name="navigateURL"/>
+                    <include name="closeBrowser"/>
+                </methods>
+            </class>
+            <class name="class01.TestNGDemo1">
+                <methods>
+                    <include name="testMethod"/>
+                    <include name="anotherMethod"/>
+                </methods>
+            </class>
+            <class name="class02.DependsOnAttribute">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="class02.SoftAssertion">
+                <methods>
+                    <include name="softAssertion"/>
+                </methods>
+            </class>
+            <class name="class02.SoftAssertion2">
+                <methods>
+                    <include name="validLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
